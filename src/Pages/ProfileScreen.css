@@ -1,0 +1,54 @@
+.profile-screen {
+  color: #fff;
+  height: 100vh;
+}
+.profile-screen-body {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+  padding-top: 8%;
+}
+.profile-screen-body > h1 {
+  font-size: 60px;
+  font-weight: 400;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #282c2d;
+}
+.profile-screen-info {
+  display: flex;
+}
+.profile-screen-info > img {
+  height: 100px;
+}
+.profile-screen-details {
+  color: white;
+  margin-left: 25px;
+  flex: 1;
+}
+
+.profile-screen-details > h2 {
+  background-color: gray;
+  padding: 15px;
+  font-size: 15px;
+  padding-left: 20px;
+}
+.profile-screen-signout {
+  padding: 10px 20px;
+  margin-top: 5%;
+  font-size: 1rem;
+  width: 100%;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+}
+.profile-screen-plans {
+  margin-top: 20px;
+}
+.profile-screen-plans > h3 {
+  border-bottom: 1px solid #282c2d;
+  padding-bottom: 10px;
+}

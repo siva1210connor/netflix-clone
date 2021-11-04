@@ -1,0 +1,20 @@
+.plan {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.plan > button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: #fff;
+  background-color: #e50914;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+}
+.plan-detail {
+  opacity: 0.8;
+}
+.plan-detail:hover {
+  opacity: 1;
+}
